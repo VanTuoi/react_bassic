@@ -26,8 +26,10 @@ function App() {          // JSX
           <Nav />
           <img src={logo} className="App-logo" alt="logo" />
           <Switch>
+
             <Route path="/" exact>
               <Home />
+
             </Route>
             <Route path="/todo" >
               <ListTodo />
